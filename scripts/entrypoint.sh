@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# install steamcmd if not exists
 test -e ${DST_USER_DATA_PATH}/steamcmd && echo "Steamcmd detected" \
     || ( \
     echo "Installing steamcmd" \
@@ -9,6 +10,7 @@ test -e ${DST_USER_DATA_PATH}/steamcmd && echo "Steamcmd detected" \
     && rm -rf /tmp/* \
     )
 
+# update dst server
 ${DST_USER_DATA_PATH}/steamcmd/steamcmd.sh +force_install_dir "${DST_USER_DATA_PATH}/dst_server" +login anonymous +app_update 343050 validate +quit
 
 # start dst server
