@@ -1,0 +1,10 @@
+version: "0.0"
+services:
+  dst-server:
+     image: dst_server
+     ports:
+        - "8768-8769:8768-8769"
+        - "10899-11099:10899-11099"
+        - "27015-27036:27015-27036"
+     volumes:
+        - ./data:/data

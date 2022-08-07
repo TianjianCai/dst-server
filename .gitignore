@@ -1,0 +1,4 @@
+/data/dst_server/*
+/data/steamcmd/*
+/data/dst_storage/*
+cluster_token.txt
