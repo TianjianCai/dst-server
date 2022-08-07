@@ -1,7 +1,10 @@
 # Don't Starve Together Server in Docker
 
 ## Usage:
-
+- Before build the docker file, make sure the scripts has execute permission:
+  ```
+  chmod 774 scripts/entrypoint.sh
+  ```
 - Build docker file:
   ```
   docker build . -t dst_server
