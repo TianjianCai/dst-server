@@ -53,4 +53,4 @@ This is a Don't Starve Together(dst) Server runs in Docker.
 - [Don't Starve Together Dedicated Server Docker Image](https://github.com/Jamesits/docker-dst-server)
 - [Dedicated Server Quick Setup Guide - Linux](https://forums.kleientertainment.com/forums/topic/64441-dedicated-server-quick-setup-guide-linux/)
 - [How to setup dedicated server with cave on Linux](https://steamcommunity.com/sharedfiles/filedetails/?id=590565473)
-
+- [EASY MODS SETUP | Dedicated Server Guide Don't Starve Together](https://www.youtube.com/watch?v=2xrIE9ePpag)
