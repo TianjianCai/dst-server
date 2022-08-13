@@ -11,7 +11,7 @@ test -e ${DST_USER_DATA_PATH}/steamcmd && echo "Steamcmd detected" \
     )
 
 # update dst server
-${DST_USER_DATA_PATH}/steamcmd/steamcmd.sh +force_install_dir "${DST_USER_DATA_PATH}/dst_server" +login anonymous +app_update 343050 validate +quit
+${DST_USER_DATA_PATH}/steamcmd/steamcmd.sh +force_install_dir "${DST_USER_DATA_PATH}/dst_server" +login anonymous +app_update 343050 +quit
 
 # start dst server
 cd ${DST_USER_DATA_PATH}/dst_server/bin64
