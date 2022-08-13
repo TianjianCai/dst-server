@@ -40,6 +40,12 @@ This is a Don't Starve Together(dst) Server runs in Docker.
               |- cluster_token.txt      // token from Klei
               |- cluster.ini            // cluster setting
   ```
+  
+- Mods should be added to the `data/dst_server/mods/dedicated_server_mods_setup.lua` file, here is an example
+  ```
+ServerModSetup("workshop-id1")
+ServerModSetup("workshop-id2")
+  ```
 
 - Run `docker compose up` again, and this time the game should be up and ready for play.
 
